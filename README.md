@@ -1,4 +1,9 @@
 # geocoder
+
+Geocoding: is the process of converting addresses (like a street address) into geographic coordinates (like latitude and longitude), which you can use to place markers on a map, or position the map.
+
+Reverse geocoding: is the process of converting geographic coordinates into a human-readable address.
+
 Geocoding Proxy Service
 
 a simple network service that resolves the lat, lng coordinates for that address
@@ -17,4 +22,5 @@ The service is written to be production level of quality.
 # Geocoding Services
 
 A. Here: https://developer.here.com/documentation/geocoder/topics/quick-start.html
+
 B. Google: https://developers.google.com/maps/documentation/geocoding/start
