@@ -107,3 +107,10 @@ beside the response the service log transactions in both the log file and server
 2019-04-14 11:45:01.771045: INFO: Calling Google service 
 2019-04-14 11:45:01.941228: CRITICAL: list index out of range
 ```
+
+#### Tested on:
+
+[x] Windows 10 pro 64-bit
+[x] MacOSX High Siera 
+[x] MacOSX Mojave
+[x] Fedora Linux 29
