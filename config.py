@@ -9,9 +9,15 @@
 """
 
 import configparser
+import os
 
 # the name of the environment
 env = 'default'
+
+# check if config.ini exists
+if not os.path.isfile('config.ini') :
+    print("Cannot open config.ini")
+    exit(1)
 
 config_parser = configparser.ConfigParser()
 config_parser.read('config.ini')
