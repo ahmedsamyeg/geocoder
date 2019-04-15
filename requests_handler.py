@@ -39,7 +39,7 @@ class RequestHandler(BaseHTTPRequestHandler):
         # compose the final results.
         result = {'lat': service.latitude, 'lng': service.longitude,
                   'meta': meta}
-        # write the results is json format and in the encoding sepcified in the config file
+        # write the results is json format and in the encoding specified in the config file
         self.wfile.write(json.dumps(result).encode(config.reponse_encoding))
 
     def do_GET(self):
