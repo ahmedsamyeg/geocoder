@@ -32,6 +32,7 @@ def run(host, port):
         # in case of exception, log the incident as critical.
         msg = f"Server Start error - {str(ex)}"
         log.log_critical(msg)
+        exit(1)
 
 
 # run the server
